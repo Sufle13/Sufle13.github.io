@@ -2,7 +2,7 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-let btn_m = document.getElementById("btn_m");
+let btn_m = document.getElementById("btn");
 let btn_v = document.getElementById("btn_v");
 
 btn_m.addEventListener("click", function(){
