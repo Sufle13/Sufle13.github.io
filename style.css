@@ -6,10 +6,6 @@ body {
 	background: white;
 }
 
-.container {
-	max-width: 390px;
-}
-
 .inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
