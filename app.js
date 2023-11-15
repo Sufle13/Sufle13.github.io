@@ -7,6 +7,8 @@ tg.expand();
 let btn_m = document.getElementById('max_btn');
 let btn_v = document.getElementById('val_btn');
 
+let lb_one = document.getElementById('val_btn');
+
 btn_m.addEventListener("click", function(){
     tg.sendData("you are fed Maxim");
 });
