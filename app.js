@@ -1,10 +1,10 @@
-var MainButton = WebApp.MainButton;
-var BackButton = WebApp.BackButton;
+var mbtn = WebApp.MainButton;
+var bbtn = WebApp.BackButton;
 let tg = window.Telegram.WebApp;
 
+mbtn.show();
+bbtn.show();
 tg.expand();
-MainButton.show();
-BackButton.show();
 
 let btn_m = document.getElementById('max_btn');
 let btn_v = document.getElementById('val_btn');
